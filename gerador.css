@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(51, 51, 51), rgb(39, 39, 39));  
+}
+
+.box{
+    color: white;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;  
+}
+fieldset{
+    border: 3px solid #ffffff;
+}
+legend{
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 5px;
+}
